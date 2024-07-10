@@ -22,10 +22,6 @@
     background-image: url("../assets/Hero-bg.png");
     max-width: 1348px;
     height: 652px;
-    /* left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px; */
 }
 
 .banner-content {
@@ -63,9 +59,8 @@ header .description {
     margin-bottom: 15px;
 }
 
-.btn{
+.btn {
     padding: 13px 18px 13px 18px;
-    color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 12px;
     font-weight: 600;
@@ -75,6 +70,11 @@ header .description {
     border-radius: 5px;
     background: rgb(13, 19, 33);
     border: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .main-header {
@@ -155,7 +155,6 @@ main .reason-3-section {
 
 .inspiration-content {
     width: 750px;
-    /* height: 164px; */
     margin: 85px auto 45px auto;
 }
 
