@@ -160,7 +160,15 @@ main .reason-3-section {
 }
 
 .inspiration-video {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 .current-target .current-target-title {
@@ -243,10 +251,6 @@ main .reason-3-section {
     padding: 20px;
 }
 
-.need-support-container {
-    
-}
-
 .support-content {
     width: 705px;
     height: 100px;
@@ -297,3 +301,26 @@ main .reason-3-section {
     text-align: center;
 }
 
+.footer-content {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+}
+
+footer h5 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 138px;
+}
+
+.social-icons {
+    margin-left: 685px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
