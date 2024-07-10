@@ -4,15 +4,28 @@
   font-style: normal;
 }
 
+.btn-primary {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
 .banner {
     background-image: url("../assets/Hero-bg.png");
-    position: absolute;
     max-width: 1348px;
     height: 652px;
-    left: 0;
+    /* left: 0;
     right: 0;
     top: 131px;
-    bottom: 4462px;
+    bottom: 4462px; */
 }
 
 .banner-content {
@@ -62,4 +75,81 @@ header .description {
     border-radius: 5px;
     background: rgb(13, 19, 33);
     border: none;
+}
+
+.main-header {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-content {
+    margin: 10px 142px 10px 140px;
+    width: 1105px;
+}
+
+.web-development-section {
+    padding: 75px 91px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+main .reason-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .reason-1-description {
+    width: 462px;
+    height: 213px;
+}
+
+.primary-description-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.primary-description-content {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .reason-2 {
+    display: flex;
+    gap: 18px;
+}
+
+main .reason-2-section {
+    padding-right: 67px;
+    width: 800px;
+    height: 230px;
+}
+
+main .reason-3 {
+    display: flex;
+    gap: 80px;
+}
+
+main .reason-3-section {
+    width: 460px;
+    height: 210px;
+}
+
+.inspiration {
+    width: 1105px;
+    height: 753px;
 }
